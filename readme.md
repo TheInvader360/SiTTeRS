@@ -18,7 +18,7 @@ The tabletop game itself could be expanded such that the survivors go on to delv
     +---+---+---+---+---+---+---+---+---+---+
     | C |   |   | X | X | X | X | X | O | O |
     +---+---+---+---+---+---+---+---+---+---+
-    | C |   |   | X | X | X | X | X | X | O |
+    | C |   |   | X | X | X | X | X |   | O |
     +---+---+---+---+---+---+---+---+---+---+----+
     | C |   |   | X | X | X | X | X | X |   | SZ |
     +---+---+---+---+---+---+---+---+---+---+----+
@@ -26,7 +26,7 @@ The tabletop game itself could be expanded such that the survivors go on to delv
     +---+---+---+---+---+---+---+---+---+---+----+
     | C |   |   | X | X | X | X | X | X |   | SZ |
     +---+---+---+---+---+---+---+---+---+---+----+
-    | C |   |   | X | X | X | X | X | X | O |
+    | C |   |   | X | X | X | X | X |   | O |
     +---+---+---+---+---+---+---+---+---+---+
     | C |   |   | X | X | X | X | X | O | O |
     +---+---+---+---+---+---+---+---+---+---+
@@ -64,8 +64,8 @@ Examples:
 
 ##   OBJECTIVES
 
-The player controlling the "collectors": Guide as many collector markers as possible to the safe zone, collecting as much loot as possible along the way.
-The player controlling the "obstructors": Defeat the collectors before they reach the safe zone, and try to stop them from collecting any loot.
+* The player controlling the "collectors": Guide as many collector markers as possible to the safe zone, collecting as much loot as possible along the way.
+* The player controlling the "obstructors": Defeat the collectors before they reach the safe zone, and try to stop them from collecting any loot.
 
   
 ## SCORING NOTES
@@ -99,14 +99,14 @@ The player controlling the "obstructors": Defeat the collectors before they reac
 * Rounds keep being played repeatedly until the game is over.
 * The game is over once no collector markers remain on the board (all are either defeated or have made it to the safe zone).
 * On each turn the player rolls the die, and moves one of their active board markers that number of spaces.
-* If a 6 is rolled, the player can opt to forfeit their move and return one of their defeated markers back onto the board (place on any free starting space - "C" for a collector or "O" for an o)
+* If a 6 is rolled, the player can opt to forfeit their move and return one of their defeated markers back onto the board (place on any free starting space - "C" for a collector or "O" for an obstructor)
 * Markers can only move in up/down/left/right directions (no diagonal movements).
 * If a marker lands on an occupied space (either occupied by an opponent or container marker) it must stop at that space (no passing) and the turn ends.
+* Collector markers that enter the safe zone are immediately removed from the board and added to the survivors tally - they cannot under any circumstances return to the game board.
 * Markers cannot enter a space already occupied by another marker of the same type.
-* Obstructor markers are not allowed to enter spaces occupied by a container marker.
-* Where a collector marker occupies the same space as a container marker, the collector player must roll again - the container marker is removed from the board and the die face value is added to their loot tally.
-* Where a collector marker occupies the same space as an obstructor marker, both players must roll again to battle - highest value wins (re-roll on draw) and the losing (defeated) marker is removed from the board.
-* Collector markers that reach the safe zone are removed from the board and added to the survivors tally - they cannot under any circumstances return to the game board.
+* Obstructor markers are not allowed to enter the safe zone or spaces occupied by a container marker.
+* Where a collector marker occupies the same space as a container marker, the collector player must roll again - the container marker is removed from the board and the die face value is added to the loot tally.
+* Where a collector marker occupies the same space as an obstructor marker, both players must roll again to battle - highest value wins (both re-roll on draw) and the defeated marker is removed from the board.
 
 
 ## CLOSING NOTES
